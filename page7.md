@@ -4,41 +4,91 @@ title: Testimonials
 permalink: /page7/
 ---
 
-## What Our Clients Say
+<style>
+.section-header { margin-bottom: 50px; }
+.section-header h2 { font-size: 2.5rem; color: #2D1B4E; margin-bottom: 15px; font-weight: 700; }
+.section-header p { font-size: 1.1rem; color: #666; }
+.testimonials-grid { display: grid; gap: 30px; }
+.testimonial-card {
+  background: #f8f9fa; padding: 40px; border-radius: 15px;
+  border-left: 5px solid #2D1B4E;
+}
+.testimonial-text {
+  font-size: 1.2rem; line-height: 1.8; color: #444;
+  margin-bottom: 25px; font-style: italic;
+}
+.testimonial-author { display: flex; align-items: center; gap: 20px; }
+.author-avatar {
+  width: 60px; height: 60px; border-radius: 50%;
+  background: #2D1B4E; color: white;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 1.3rem; font-family: Arial, sans-serif;
+  flex-shrink: 0;
+}
+.author-info h4 { font-size: 1.1rem; color: #2D1B4E; margin-bottom: 4px; }
+.author-info p { color: #666; font-size: 0.9rem; }
+</style>
 
-Real feedback from satisfied clients
+<div class="section-header">
+  <h2>What Our Clients Say</h2>
+  <p>Real feedback from satisfied clients</p>
+</div>
 
----
+<div class="testimonials-grid">
 
-> "SDR telah mengubah sistem kami secara total. Software yang mereka kembangkan
-> tidak hanya powerful, tapi juga sangat efektif dalam meningkatkan produktivitas bisnis. Highly recommended!"
+  <div class="testimonial-card">
+    <p class="testimonial-text">"SDR telah mengubah sistem digital kami secara total. Software yang mereka kembangkan tidak hanya powerful, tapi juga sangat efektif dalam meningkatkan produktivitas bisnis. Highly recommended!"</p>
+    <div class="testimonial-author">
+      <div class="author-avatar">JT</div>
+      <div class="author-info">
+        <h4>Jessica Tanoto</h4>
+        <p>CEO, Luxe Boutique</p>
+      </div>
+    </div>
+  </div>
 
-**JT** — **Jessica Tanoto** — *CEO, Luxe Boutique*
+  <div class="testimonial-card">
+    <p class="testimonial-text">"Tim yang sangat profesional dan responsif. Mereka mendengarkan kebutuhan kami dengan baik dan hasilnya melebihi ekspektasi. Website kami sekarang jauh lebih menarik dan user-friendly."</p>
+    <div class="testimonial-author">
+      <div class="author-avatar">FS</div>
+      <div class="author-info">
+        <h4>Fajar Setiawan</h4>
+        <p>Marketing Director, TechNova</p>
+      </div>
+    </div>
+  </div>
 
----
+  <div class="testimonial-card">
+    <p class="testimonial-text">"Aplikasi yang dibangun oleh SDR membuat bisnis kami stand out di pasar. Penjualan meningkat signifikan sejak kami menggunakan platform baru mereka."</p>
+    <div class="testimonial-author">
+      <div class="author-avatar">MS</div>
+      <div class="author-info">
+        <h4>Maya Sari</h4>
+        <p>Founder, Kopi Nusantara</p>
+      </div>
+    </div>
+  </div>
 
-> "Tim yang sangat profesional dan responsif. Mereka mendengarkan kebutuhan kami dengan
-> baik dan hasilnya melebihi ekspektasi. Website kami sekarang jauh lebih menarik dan user-friendly."
+  <div class="testimonial-card">
+    <p class="testimonial-text">"Bekerja dengan SDR adalah pengalaman yang menyenangkan. Mereka sangat creative, detail-oriented, dan selalu on-time dengan deadline. Partner yang sempurna!"</p>
+    <div class="testimonial-author">
+      <div class="author-avatar">AK</div>
+      <div class="author-info">
+        <h4>Ahmad Kurniawan</h4>
+        <p>Operations Manager, Green Earth</p>
+      </div>
+    </div>
+  </div>
 
-**FS** — **Fajar Setiawan** — *Marketing Director, TechNova*
+  <div class="testimonial-card">
+    <p class="testimonial-text">"UI/UX design untuk aplikasi kami sangat intuitif dan modern. Users kami memberikan feedback positif tentang experience yang seamless. Thank you SDR!"</p>
+    <div class="testimonial-author">
+      <div class="author-avatar">RP</div>
+      <div class="author-info">
+        <h4>Rina Puspita</h4>
+        <p>Product Manager, FitLife App</p>
+      </div>
+    </div>
+  </div>
 
----
-
-> "Aplikasi yang dibangun oleh SDR membuat produk kami stand out
-> di pasar. Penjualan meningkat signifikan sejak kami menggunakan platform baru mereka."
-
-**MS** — **Maya Sari** — *Founder, Kopi Nusantara*
-
----
-
-> "Bekerja dengan SDR adalah pengalaman yang menyenangkan. Mereka sangat
-> creative, detail-oriented, dan selalu on-time dengan deadline. Partner yang sempurna!"
-
-**AK** — **Ahmad Kurniawan** — *Operations Manager, Green Earth*
-
----
-
-> "UI/UX design untuk aplikasi kami sangat intuitif dan modern. Users kami memberikan
-> feedback positif tentang experience yang seamless. Thank you SDR!"
-
-**RP** — **Rina Puspita** — *Product Manager, FitLife App*
+</div>

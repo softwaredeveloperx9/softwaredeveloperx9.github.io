@@ -4,42 +4,73 @@ title: Our Team
 permalink: /page6/
 ---
 
-## Meet Our Team
+<style>
+.section-header { margin-bottom: 50px; }
+.section-header h2 { font-size: 2.5rem; color: #2D1B4E; margin-bottom: 15px; font-weight: 700; }
+.section-header p { font-size: 1.1rem; color: #666; }
+.team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; }
+.team-member { text-align: center; }
+.team-photo {
+  width: 150px; height: 150px; border-radius: 50%;
+  background: linear-gradient(135deg, #2D1B4E, #4A2B7C);
+  margin: 0 auto 20px;
+  display: flex; align-items: center; justify-content: center;
+  color: white; font-size: 2.5rem; font-weight: 700; font-family: Arial, sans-serif;
+}
+.team-member h3 { font-size: 1.4rem; color: #2D1B4E; margin-bottom: 8px; }
+.team-member .role { color: #666; font-size: 1rem; margin-bottom: 15px; font-style: italic; }
+.team-member p { color: #777; font-size: 0.9rem; line-height: 1.6; }
+@media (max-width: 768px) { .team-grid { grid-template-columns: repeat(2, 1fr); gap: 25px; } }
+@media (max-width: 480px) { .team-grid { grid-template-columns: 1fr; } }
+</style>
 
-The talented people behind SDR - Software DevelopeR
+<div class="section-header">
+  <h2>Meet Our Team</h2>
+  <p>The talented people behind SDR - Software DevelopeR</p>
+</div>
 
----
+<div class="team-grid">
 
-**AR** — **Arief Rahman** — *Creative Director*
+  <div class="team-member">
+    <div class="team-photo">AR</div>
+    <h3>Arief Rahman</h3>
+    <p class="role">Creative Director</p>
+    <p>Visionary leader dengan 10+ tahun pengalaman dalam industri desain kreatif dan branding.</p>
+  </div>
 
-Visionary leader dengan 10+ tahun pengalaman dalam industri desain kreatif dan branding.
+  <div class="team-member">
+    <div class="team-photo">SK</div>
+    <h3>Siti Khadijah</h3>
+    <p class="role">Lead Designer</p>
+    <p>Spesialis UI/UX dengan passion untuk menciptakan pengalaman digital yang exceptional.</p>
+  </div>
 
----
+  <div class="team-member">
+    <div class="team-photo">BP</div>
+    <h3>Budi Prasetyo</h3>
+    <p class="role">Brand Strategist</p>
+    <p>Expert dalam membangun brand identity yang kuat dan strategi marketing yang efektif.</p>
+  </div>
 
-**SK** — **Siti Khadijah** — *Lead Designer*
+  <div class="team-member">
+    <div class="team-photo">DW</div>
+    <h3>Dewi Wijaya</h3>
+    <p class="role">Graphic Designer</p>
+    <p>Creative mind dengan eye for detail dan keahlian dalam visual communication.</p>
+  </div>
 
-Spesialis UI/UX dengan passion untuk menciptakan pengalaman digital yang exceptional.
+  <div class="team-member">
+    <div class="team-photo">RH</div>
+    <h3>Rizky Hermawan</h3>
+    <p class="role">Web Developer</p>
+    <p>Full-stack developer yang mengubah desain menjadi website yang powerful dan responsive.</p>
+  </div>
 
----
+  <div class="team-member">
+    <div class="team-photo">LA</div>
+    <h3>Linda Anggraeni</h3>
+    <p class="role">Project Manager</p>
+    <p>Ensures seamless project delivery dan komunikasi yang efektif antara tim dan klien.</p>
+  </div>
 
-**BP** — **Budi Prasetyo** — *Brand Strategist*
-
-Expert dalam membangun brand identity yang kuat dan strategi marketing yang efektif.
-
----
-
-**DW** — **Dewi Wijaya** — *Graphic Designer*
-
-Creative mind dengan eye for detail dan keahlian dalam visual communication.
-
----
-
-**RH** — **Rizky Hermawan** — *Web Developer*
-
-Full-stack developer yang mengubah desain menjadi website yang powerful dan responsive.
-
----
-
-**LA** — **Linda Anggraeni** — *Project Manager*
-
-Ensures seamless project delivery dan komunikasi yang efektif antara tim dan klien.
+</div>
