@@ -28,3 +28,5 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+  
+google_analytics: G-DD3C3FZW9H
