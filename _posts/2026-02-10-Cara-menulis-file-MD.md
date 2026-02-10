@@ -11,6 +11,10 @@ author: SDR - Software DevelopeR
 
 > **keterangan:** panduan untuk menulis file .MD yang efektif dan efisien.
 
+## Daftar isi
+* TOC
+{:toc}
+
 ## Tulisan Umum
 
 1. selalu gunakan `GIT History`<br/>
