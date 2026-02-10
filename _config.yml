@@ -4,3 +4,27 @@ author: SuDiRman
 email: mdsudirman@gmail.com
 theme: minima
 permalink: /tulisan/:title/
+
+header_pages:
+  - index.md
+  - page2.md
+  - about.md
+  # ... halaman lain Anda
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,9 +1,5 @@
----
----
-
-@import "minima";
-
 /* Custom styles for Company Profile pages */
+/* This file should be placed in /assets/css/custom.css or /assets/css/style.scss */
 
 :root {
     --primary-purple: #2D1B4E;
@@ -13,6 +9,12 @@
     --text-dark: #333333;
     --bg-light: #f8f9fa;
     --gradient-bg: linear-gradient(135deg, #2D1B4E 0%, #1a0f2e 100%);
+}
+
+/* Override Minima's default max-width for full-width pages */
+.page2-wrapper .wrapper {
+    max-width: 100%;
+    padding: 0;
 }
 
 /* Content Pages */
