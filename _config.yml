@@ -3,3 +3,4 @@ description: sharing seputar Software Developer
 author: SuDiRman
 email: mdsudirman@gmail.com
 theme: minima
+permalink: /tulisan/:title/
