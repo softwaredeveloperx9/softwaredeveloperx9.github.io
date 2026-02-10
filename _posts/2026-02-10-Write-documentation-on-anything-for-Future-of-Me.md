@@ -10,7 +10,7 @@ author: SDR - Software DevelopeR
 # Self principle: Write documentation on anything for 'Future of Me'
 
 I am a Programmer.<br/>
-I am 47 years old.<br/>
+Getting older every year. 😁<br/>
 
 **Problem:**
 - too easy to forget anything
