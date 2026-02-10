@@ -1,7 +1,7 @@
 ---
 layout: page2_layout
 title: Company Profile - Table of Contents
-permalink: /page2/
+permalink: /contents/
 ---
 
 <!-- Content will be rendered by the layout -->
