@@ -1,0 +1,16 @@
+---
+# Only the main Sass file needs front matter (the dashes are required)
+---
+
+@import "minima";
+
+// Custom CSS di bawah ini
+.site-header {
+  background-color: #333;
+  border-top: 5px solid #0066cc;
+}
+
+.post-title {
+  color: #0066cc;
+  font-size: 2.5em;
+}
