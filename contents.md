@@ -1,6 +1,6 @@
 ---
 layout: page2_layout
-title: Company Profile - Table of Contents
+title: Table of Contents
 permalink: /contents/
 ---
 
