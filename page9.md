@@ -1,47 +1,7 @@
 ---
-layout: page
+layout: page9_layout
 title: Thank You
 permalink: /page9/
 ---
 
-<style>
-.thank-you-wrapper {
-  min-height: 60vh;
-  display: flex; align-items: center; justify-content: center;
-  text-align: center;
-  background: linear-gradient(135deg, #2D1B4E 0%, #1a0f2e 100%);
-  border-radius: 20px;
-  padding: 80px 40px;
-  margin-top: 20px;
-}
-.thank-you-content h2 {
-  font-size: 4rem; margin-bottom: 30px; font-weight: 900;
-  color: white; letter-spacing: -2px;
-}
-.thank-you-content p {
-  font-size: 1.5rem; margin-bottom: 15px; color: rgba(255,255,255,0.9);
-  line-height: 1.7;
-}
-.back-btn {
-  display: inline-block; background: white; color: #2D1B4E;
-  padding: 15px 40px; text-decoration: none; border-radius: 8px;
-  font-weight: 600; font-size: 1.1rem; transition: all 0.3s; margin-top: 25px;
-}
-.back-btn:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(255,255,255,0.3); color: #2D1B4E; }
-.thank-you-contact { margin-top: 30px; color: rgba(255,255,255,0.7); font-size: 1rem; }
-.thank-you-contact p { font-size: 1rem; margin-bottom: 5px; }
-</style>
-
-<div class="thank-you-wrapper">
-  <div class="thank-you-content">
-    <h2>THANK YOU!</h2>
-    <p>Terima kasih telah menghubungi kami.</p>
-    <p>Tim kami akan segera merespon pesan Anda dalam 1x24 jam.</p>
-    <p>Kami berharap dapat bekerja sama dengan Anda!</p>
-    <a href="/" class="back-btn">Back to Home</a>
-    <div class="thank-you-contact">
-      <p>📧 hello@softwaredeveloperx.com</p>
-      <p>📱 +62 21 5555 1234</p>
-    </div>
-  </div>
-</div>
+<!-- Content will be rendered by the layout -->

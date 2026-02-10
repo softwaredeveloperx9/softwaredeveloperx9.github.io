@@ -1,7 +1,0 @@
----
-layout: page3_layout
-title: About Us
-permalink: /page3x/
----
-
-<!-- Content will be rendered by the layout -->
