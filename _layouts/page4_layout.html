@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body class="company-profile-page">
+
+{%- include header.html -%}
+
+<style>
+
+.services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+.service-card {
+  background: white; border: 2px solid #e0e0e0; border-radius: 15px;
+  padding: 40px 30px; transition: all 0.3s; text-align: center;
+}
+.service-card:hover {
+  border-color: #2D1B4E; transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(45,27,78,0.15);
+}
+.service-icon {
+  width: 80px; height: 80px;
+  background: linear-gradient(135deg, #2D1B4E 0%, #1a0f2e 100%);
+  border-radius: 50%; margin: 0 auto 25px;
+  display: flex; align-items: center; justify-content: center; font-size: 2.5rem;
+}
+.service-card h3 { font-size: 1.5rem; color: #2D1B4E; margin-bottom: 15px; }
+.service-card p { color: #666; line-height: 1.7; }
+@media (max-width: 768px) { .services-grid { grid-template-columns: 1fr; } }
+</style>
+
+<main class="page-content" aria-label="Content">
+    <div class="page-wrapper">
+        <section class="content-section">
+            <div class="container fade-in">
+                <div class="section-header">
+  <h2>Our Services</h2>
+  <p>Professional software development solutions tailored to your needs</p>
+</div>
+
+                <div class="services-grid">
+
+  <div class="service-card">
+    <div class="service-icon">🌐</div>
+    <h3>Web Development</h3>
+    <p>Kami membangun web application modern dan responsif yang tidak hanya indah dipandang, tapi juga performant, scalable, dan optimized untuk kebutuhan bisnis Anda.</p>
+  </div>
+
+  <div class="service-card">
+    <div class="service-icon">📱</div>
+    <h3>Mobile App Development</h3>
+    <p>Pengembangan aplikasi mobile native dan cross-platform yang intuitif dan berkualitas tinggi untuk platform iOS dan Android.</p>
+  </div>
+
+  <div class="service-card">
+    <div class="service-icon">🖥️</div>
+    <h3>Custom Software</h3>
+    <p>Solusi software custom yang dirancang khusus sesuai kebutuhan unik bisnis Anda, dari sistem internal hingga platform enterprise.</p>
+  </div>
+
+  <div class="service-card">
+    <div class="service-icon">☁️</div>
+    <h3>Cloud Solutions</h3>
+    <p>Implementasi dan migrasi ke cloud infrastructure yang aman, scalable, dan cost-efficient menggunakan platform terkemuka seperti AWS, GCP, dan Azure.</p>
+  </div>
+
+  <div class="service-card">
+    <div class="service-icon">🔗</div>
+    <h3>API Development & Integration</h3>
+    <p>Pengembangan dan integrasi RESTful API maupun GraphQL yang robust untuk menghubungkan sistem dan layanan Anda secara seamless.</p>
+  </div>
+
+  <div class="service-card">
+    <div class="service-icon">🛡️</div>
+    <h3>IT Consulting</h3>
+    <p>Konsultasi teknologi strategis untuk membantu bisnis Anda membuat keputusan IT yang tepat dan memaksimalkan investasi teknologi Anda.</p>
+  </div>
+
+</div>
+            </div>
+        </section>
+    </div>
+</main>
+
+{%- include footer.html -%}
+
+</body>
+</html>
