@@ -29,7 +29,7 @@ Tulisan akan dibaca oleh manusia, maka sebaiknya menulis secara `natural`.
 
 3. SDR:
     - **S**ituation
-    - **D**efine {Define, Design, Document, Develop, Deliver}
+    - **D**efine → Design → Document → Develop → Deliver
     - **R**esult {Realistic}
    
 4. Too Few vs Too Much
@@ -78,5 +78,5 @@ Tulisan akan dibaca oleh manusia, maka sebaiknya menulis secara `natural`.
    - terus menerus {*Continuous*}
 5. SDR:
     - **S**ituation
-    - **D**efine {Develop}
+    - **D**efine → Design → Document → Develop → Deliver
     - **R**esult {Realistic}
