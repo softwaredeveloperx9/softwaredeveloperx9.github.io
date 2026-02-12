@@ -35,8 +35,8 @@ Tulisan akan dibaca oleh manusia, maka sebaiknya menulis secara `natural`.
 4. Too Few vs Too Much
 
 ```
-    ❌ Too Few   → Incomplete, tidak berguna
     ❌ Too Much  → Overwhelmed, kebanjiran informasi
+    ❌ Too Few   → Incomplete, tidak berguna
     ✅ Pragmatic
 ```
   
