@@ -31,3 +31,9 @@ Website [softwaredeveloperx.com](https://softwaredeveloperx.com/) dihandle denga
 ### konfigurasi Github Pages ke Custom domain - softwaredeveloperx.com
 
 ![Jekyll--theme--minima](/A_images/web-softwaredeveloperx-com/GitHub-Pages-Custom-domain.png)
+
+### Deploy
+
+proses Deploy bisa dilihat pada page berikut:
+
+![GitHub-Pages-deploy.png](/A_images/web-softwaredeveloperx-com/GitHub-Pages-deploy.png)
