@@ -1,5 +1,5 @@
 ---
-layout: _new_home
+layout: new_home
 title: Home
 permalink: /
 ---
