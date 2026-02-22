@@ -37,3 +37,29 @@ Website [softwaredeveloperx.com](https://softwaredeveloperx.com/) dihandle denga
 proses Deploy bisa dilihat pada page berikut:
 
 ![GitHub-Pages-deploy.png](/A_images/web-softwaredeveloperx-com/GitHub-Pages-deploy.png)
+
+## Summary: file added and changes
+
+File-file yang saya tambahkan dan/atau ubah:
+
+- file [\_config.yml](https://github.com/softwaredeveloperx9/softwaredeveloperx9.github.io/blob/main/_config.yml)
+- file [index.md](https://github.com/softwaredeveloperx9/softwaredeveloperx9.github.io/blob/main/index.md)
+- dan beberapa file pada beberapa Sub-Folder:
+
+![GitHub-Pages-file-add-changes.png](/A_images/web-softwaredeveloperx-com/GitHub-Pages-file-add-changes.png)
+
+## DO NOT: prefix \_
+
+Underscore _ di Jekyll = tanda "ini folder/file sistem Jekyll, bukan konten publik".<br/>
+Semua folder internal Jekyll pakai _:
+
+```
+_posts/      ← sistem
+_layouts/    ← sistem
+_includes/   ← sistem
+_sass/       ← sistem
+_drafts/     ← sistem
+```
+
+> [!WARNING]
+> saya pernah membuat file layout - `a_new_post.html`, tetapi tidak bisa {karena alasan di atas}
