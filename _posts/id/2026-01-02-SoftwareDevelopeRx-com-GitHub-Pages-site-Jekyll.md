@@ -18,7 +18,7 @@ Website [softwaredeveloperx.com](https://softwaredeveloperx.com/) dihandle denga
 
 - download theme `minima` di [https://github.com/jekyll/minima](https://github.com/jekyll/minima)
 - extract pada _Root Folder_
-- lakukan konfigurasi pada file [\_config.yml](/_config.yml)
+- lakukan konfigurasi pada file [\_config.yml](https://github.com/softwaredeveloperx9/softwaredeveloperx9.github.io/blob/main/_config.yml)
 
 ### hasil extract theme: `minima`
 
