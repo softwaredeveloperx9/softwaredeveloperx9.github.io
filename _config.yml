@@ -34,11 +34,11 @@ defaults:
       values:
           lang: id
           permalink: /id/:title/
-          layout: post
+          layout: _new_post
     - scope:
           path: '_posts/en'
           type: posts
       values:
           lang: en
           permalink: /en/:title/
-          layout: post
+          layout: _new_post
