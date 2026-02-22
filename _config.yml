@@ -6,9 +6,6 @@ theme: minima
 
 header_pages:
     - index.md
-    - page2.md
-    - about.md
-    # ... halaman lain Anda
 
 # Plugins
 plugins:
