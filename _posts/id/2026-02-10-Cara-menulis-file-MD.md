@@ -23,8 +23,8 @@ ref: cara-menulis-file-md
 
 3. SDR:
     - **S**ituation
-    - **D**efine {Develop}
-    - **R**esult {Realistic}
+    - **D** {Define → Design → Document → Develop → Delivery}
+    - **R** {Result, Realistic}
 4. Too Few vs Too Much
 
 ```
@@ -68,5 +68,5 @@ ref: cara-menulis-file-md
     - terus menerus {_Continuous_}
 5. SDR:
     - **S**ituation
-    - **D**efine {Develop}
-    - **R**esult {Realistic}
+    - **D** {Define → Design → Document → Develop → Delivery}
+    - **R** {Result, Realistic}
