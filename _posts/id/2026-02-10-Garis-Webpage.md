@@ -4,6 +4,11 @@ ref: garis-webpage
 
 # Cara menampilkan Garis merah pada WebPage
 
+Sebagai _FrontEnd Developer_, saya sering memerlukan informasi "block-block" pada suatu WebPage. Simple _garis merah_ di semua Kotak, akan sangat membantu:
+
+- memberikan _Big Picture_ WebPage
+- melakukan Debugging
+
 Ada beberapa cara:
 
 - menggunakan simple - `JavaScript`
@@ -41,4 +46,4 @@ atau:
 
 hasil seperti berikut:
 
-![Garis pada WebPage](/A_images/Outline-solid-red.png)
+![Garis pada WebPage](/A_images/web-softwaredeveloperx-com/Outline-solid-red.png)
